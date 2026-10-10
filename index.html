@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Snoozle</title>
+  <meta name="description" content="Snoozle — sleep and wake in one app. An alarm clock with wake-up challenges, a movement-based sleep estimate and a Morning Report.">
+  <link rel="icon" href="snoozle-icon.png">
+  <style>
+    :root {
+      --bg: #12102b;
+      --bg-2: #1e1a4a;
+      --card: rgba(255, 255, 255, 0.07);
+      --text: #f4f2ff;
+      --muted: #b9b4dc;
+      --accent: #8f7cf2;
+      --gold: #ffc21a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(180deg, var(--bg-2), var(--bg));
+      background-color: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.5;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 56px 16px 40px; }
+    header { text-align: center; }
+    header img { width: 112px; height: 112px; border-radius: 26px; }
+    h1 { font-size: 2.4rem; margin: 20px 0 4px; color: var(--gold); letter-spacing: 0.02em; }
+    .tagline { font-size: 1.25rem; margin: 0 0 8px; }
+    .lead { color: var(--muted); margin: 0 auto 28px; max-width: 520px; }
+    .store {
+      display: inline-block; padding: 12px 22px; border-radius: 999px;
+      background: var(--accent); color: #fff; text-decoration: none; font-weight: 600;
+    }
+    .store:focus-visible, a:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+    .features { display: grid; gap: 12px; margin: 40px 0; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+    .feature { background: var(--card); border-radius: 18px; padding: 18px; }
+    .feature h2 { font-size: 1.05rem; margin: 0 0 6px; }
+    .feature p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    .note { color: var(--muted); font-size: 0.85rem; text-align: center; }
+    footer { text-align: center; color: var(--muted); font-size: 0.85rem; margin-top: 32px; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="snoozle-icon.png" alt="Snoozle app icon">
+      <h1>Snoozle</h1>
+      <p class="tagline">Sleep and wake in one app</p>
+      <p class="lead">An alarm clock that gets you up with a quick wake-up challenge, estimates your night from your phone's movement, and sums it all up in a Morning Report.</p>
+      <a class="store" href="https://play.google.com/store/apps/details?id=com.ruanvv.snoozle">Get it on Google Play</a>
+    </header>
+
+    <section class="features" aria-label="Features">
+      <div class="feature">
+        <h2>Wake-up challenges</h2>
+        <p>Solve a quick puzzle, type a phrase, shake or walk a few steps to switch the alarm off.</p>
+      </div>
+      <div class="feature">
+        <h2>Sleep estimate</h2>
+        <p>A rough estimate of your night, based on your phone's movement.</p>
+      </div>
+      <div class="feature">
+        <h2>Morning Report</h2>
+        <p>Your wake-up, snoozes, streak and last night's estimate, every morning.</p>
+      </div>
+    </section>
+
+    <p class="note">Sleep figures are movement-based estimates, not medical measurements.</p>
+
+    <footer>
+      <p>&copy; 2026 Snoozle</p>
+    </footer>
+  </main>
+</body>
+</html>
