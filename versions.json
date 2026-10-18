@@ -1,0 +1,4 @@
+{
+  "_readme": "Latest LIVE store version per app, read by each app's Update available prompt. Bump android/ios only after that release is live in the store; set min to force an update below that version.",
+  "lastline": { "android": "2.2.0", "ios": "2.2.0", "min": "0" }
+}
