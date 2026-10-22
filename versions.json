@@ -1,4 +1,5 @@
 {
-  "_readme": "Latest LIVE store version per app, read by each app's Update available prompt. Bump android/ios only after that release is live in the store; set min to force an update below that version.",
-  "lastline": { "android": "2.2.3", "ios": "2.2.0", "min": "0" }
+  "_readme": "Latest LIVE store version per app, read by each app's Update available prompt. Bump android/ios only after that release is live in the store; set min to force an update below that version. lastline_ads = Last Line ad frequency (2.2.4+, see Assets/_Game/Scripts/Meta/AdTuning.cs).",
+  "lastline": { "android": "2.2.3", "ios": "2.2.0", "min": "0" },
+  "lastline_ads": { "interstitialFromRun": 2, "cooldownSeconds": 75, "sessionGraceSeconds": 30, "afterRewardedSeconds": 30, "bannerFromLevel": 0, "bonusSoldierFromLevel": 0 }
 }
