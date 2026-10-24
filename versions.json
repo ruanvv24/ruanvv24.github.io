@@ -10,7 +10,7 @@
     "cooldownSeconds": 60,
     "sessionGraceSeconds": 30,
     "afterRewardedSeconds": 30,
-    "bannerFromLevel": 0,
+    "bannerFromLevel": 9999,
     "bonusSoldierFromLevel": 0
   },
   "crossroads": {
