@@ -7,7 +7,7 @@
   },
   "lastline_ads": {
     "interstitialFromRun": 4,
-    "cooldownSeconds": 75,
+    "cooldownSeconds": 60,
     "sessionGraceSeconds": 30,
     "afterRewardedSeconds": 30,
     "bannerFromLevel": 0,
