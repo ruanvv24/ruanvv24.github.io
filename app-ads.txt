@@ -5,6 +5,9 @@ google.com, pub-5726086994532156, DIRECT, f08c47fec0942fa0
 # ironSource Ads (LevelPlay), publisher ID 693141
 ironsrc.com, 693141, DIRECT
 
+# Liftoff Monetize (Vungle), publisher RVV Studios
+vungle.com, 6adc62ca298c0ae23ec37d86, DIRECT, c107d686becd2d77
+
 # Unity Ads, direct line + authorised resellers (from Unity dashboard → Monetization → Settings → Organization → App-ads.txt)
 unity.com, 152641722, DIRECT, 96cabb5fbdde37a7
 adwmg.com, 159512, RESELLER, c9688a22012618e7
