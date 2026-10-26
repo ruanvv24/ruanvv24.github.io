@@ -6,7 +6,7 @@
     "min": "0"
   },
   "lastline_ads": {
-    "interstitialFromRun": 4,
+    "interstitialFromRun": 7,
     "cooldownSeconds": 60,
     "sessionGraceSeconds": 30,
     "afterRewardedSeconds": 30,
