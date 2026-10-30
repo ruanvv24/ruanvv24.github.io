@@ -18,6 +18,11 @@
     "ios": "1.0.0",
     "min": "0"
   },
+  "survivors": {
+    "android": "1.0.0",
+    "ios": "1.0.0",
+    "min": "0"
+  },
   "lastline_events": {
     "halloween": true,
     "halloweenEnd": ""
