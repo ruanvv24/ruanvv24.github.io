@@ -14,9 +14,15 @@
     "bonusSoldierFromLevel": 0
   },
   "crossroads": {
-    "android": "1.0.0",
+    "android": "1.0.2",
     "ios": "1.0.0",
     "min": "0"
+  },
+  "crossroads_ads": {
+    "interstitialFromChapter": 1,
+    "interstitialFromSession": 2,
+    "cooldownSeconds": 60,
+    "afterRewardedSeconds": 30
   },
   "survivors": {
     "android": "1.0.0",
