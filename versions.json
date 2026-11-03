@@ -1,12 +1,12 @@
 {
   "_readme": "Latest LIVE store version per app, read by each app's Update available prompt. Bump android/ios only after that release is live in the store; set min to force an update below that version. lastline_ads = Last Line ad frequency (2.2.4+, see Assets/_Game/Scripts/Meta/AdTuning.cs). lastline_events = Last Line limited events (2.3.3+): halloween on/off inside its date window (Oct 30 15:55 - Nov 3 15:55 UTC); halloweenEnd (ISO UTC) extends the end.",
   "lastline": {
-    "android": "2.5.1",
+    "android": "2.6.0",
     "ios": "2.5.1",
     "min": "0"
   },
   "lastline_ads": {
-    "interstitialFromRun": 2,
+    "interstitialFromRun": 5,
     "cooldownSeconds": 60,
     "sessionGraceSeconds": 30,
     "afterRewardedSeconds": 30,
@@ -35,6 +35,11 @@
   },
   "dropintheocean": {
     "android": "1.0.0",
+    "ios": "0",
+    "min": "0"
+  },
+  "blockbloom": {
+    "android": "1.0.2",
     "ios": "0",
     "min": "0"
   }
