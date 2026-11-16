@@ -13,7 +13,9 @@
     "sessionGraceSeconds": 30,
     "afterRewardedSeconds": 30,
     "bannerFromLevel": 9999,
-    "bonusSoldierFromLevel": 0
+    "bonusSoldierFromLevel": 0,
+    "cardHpRamp": 4,
+    "wideDensity": 1.8
   },
   "crossroads": {
     "android": "1.0.2",
